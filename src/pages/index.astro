@@ -1,0 +1,16 @@
+---
+// import EntryScreen from '../components/EntryScreen';
+// import GameScreen from '../components/GameScreen';
+import PlayScreen from '../components/screens/PlayScreen';
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Obtuse Game">
+	<main class="flex justify-center items-center w-screen h-screen bg-white">
+		<div class="p-4 rounded-xl border-3 border-black ">
+			<PlayScreen client:load />
+		</div>
+	</main>
+</Layout>
+
